@@ -1,0 +1,21 @@
+html, body, #app, #app>div {
+  width: 100vw;
+  height: 100vh;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.btn-label {
+  position: relative;
+  left: -12px;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 3px 0 0 3px;
+  background: rgba(0, 0, 0, 0.15);
+}
